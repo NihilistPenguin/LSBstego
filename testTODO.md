@@ -1,2 +1,2 @@
-- [ ] task1 
+- [x] task1 
 - [ ] task2
