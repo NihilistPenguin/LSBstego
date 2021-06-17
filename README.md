@@ -1,9 +1,9 @@
 # LSBstego
-simple LSB encoding and decoding
+Simple LSB encoding and decoding for hiding text in images. 
 
-This is just a work-in-progress for me to learn how LSB encoding/decoding works
+This was created for me to learn how LSB encoding/decoding works and for educational purposes. This was not entirely my own work, I had based it off of some other person's medium article, which I cannot find anymore.
 
-# LSB encode program
+## LSBencode.py
 So far, this just encodes your message in base64 and encodes it into the first row of pixels in a given png file. Bits are changed in
 the Red, Green, and Blue bytes of a pixel.
 
@@ -21,7 +21,7 @@ optional arguments:
                         filename for output file (Default: outputfile.png)
 ```
 
-# LSB decode program
+## LSBdecode.py
 So far, this just extracts all LSBs from the first row and attempst to decode from base64.
 
 ```console
